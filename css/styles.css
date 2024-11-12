@@ -401,7 +401,7 @@ button {
         padding: 188px 0;
         background-image:
             linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/people-office.jpg);
+            url(../images/new/new-one.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         max-width: 1440px;
@@ -412,13 +412,14 @@ button {
     .solutions {
         color: #ffffff;
         text-align: center;
-        font-size: 56px;
+        font-size: 36px;
         font-weight: bold;
         line-height: 1.07;
         letter-spacing: 0.02em;
-        max-width: 496px;
+        max-width: 216px;
         margin-right: auto;
         margin-left: auto;
+        margin-bottom: 72px;
     }
 
     .button {
@@ -460,6 +461,49 @@ button {
         letter-spacing: 4%;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .mainbuttoning {
+        background-image:
+                linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images/new/Dark-bg.jpg);
+    }
+                .solutions {
+                    color: #ffffff;
+                    text-align: center;
+                    font-size: 56px;
+                    font-weight: bold;
+                    line-height: 1.07;
+                    letter-spacing: 0.02em;
+                    max-width: 496px;
+                    margin-right: auto;
+                    margin-left: auto;
+                    margin-bottom: 36px;
+                }
+}
+@media screen and (min-width: 1158px) {
+    .mainbuttoning {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/people-office.jpg);;
+    }
+}
+
+
+
+
+
+
+
 
 @media screen and (min-width: 320px) {
     .dontforgetforthisdiv {
@@ -1457,6 +1501,12 @@ img {
     margin-bottom: 72px;
 }    
 }
+@media screen and (min-width: 320px) {
+    .test-uls {
+        margin-bottom: 96px;
+        margin-top: 96px;
+    }
+}
 @media screen and (min-width: 768px) {
                     .secret-ul {
                             display: flex;
@@ -1467,6 +1517,10 @@ img {
                          .secret-li {
                             width: calc((100% - 48px) / 2);
                             transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                        }
+                        .test-uls {
+                            margin-bottom: 96px;
+                            margin-top: 96px;
                         } 
 }
 @media screen and (min-width: 1158px) {
@@ -1480,4 +1534,88 @@ img {
                             width: calc((100% - 48px) / 3);
                             transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
                         }
+                        .test-uls {
+                            margin-bottom: 120px;
+                            margin-top: 120px;
+                        }
+}
+@media screen and (max-width: 768px) {
+    .strategy {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 36px;
+        letter-spacing: 0.02em;
+    }
+}
+@media screen and (min-width: 768px) {
+    .strategy {
+        text-align: none;
+        justify-content: none;
+    }
+}
+@media screen and (min-width: 1158px) {
+    .strategy {
+    font-weight: 500;
+    font-size: 20px;
+    }
+}
+@media screen and (min-width: 320px) {
+    .our-team {
+        margin-top: 96px;
+    }
+    .testsixty {
+        margin-bottom: 72px;
+    }
+    .mobile-menu {
+        z-index: 999;
+    }
+    .li-mobile {
+        padding-top: 72px;
+    }
+    .atribyte-mobile {
+        font-style: normal;
+    }
+}
+@media screen and (min-width: 768px) {
+    .li-first-twous {
+        padding-left: 40px;
+    }
+    .testsixty {
+        margin-bottom: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) {
+    .foot-buttonnn {
+       margin-left: auto;
+       margin-right: auto;
+        margin-top: 16px;
+    }
+}
+@media  screen and (min-width: 768px) {
+    .foot-buttonnn {
+        margin-left: 24px;
+        margin-right: 0;
+        margin-top: 0;
+    }
 }
